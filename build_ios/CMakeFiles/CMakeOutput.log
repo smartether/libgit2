@@ -1,0 +1,806 @@
+The system is: Darwin - 15.6.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+2016-11-22 17:58:21.359 xcodebuild[13703:1623340] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET CompilerIdC OF PROJECT CompilerIdC WITH THE DEFAULT CONFIGURATION (Debug) ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+chmod 0755 /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap
+
+CompileC CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o CMakeCCompilerId.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -fvisibility=hidden -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.dia -c /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CMakeCCompilerId.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o
+
+Ld CompilerIdC normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_lto.o -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC
+
+PhaseScriptExecution Run\ Script CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC
+    /bin/sh -c /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+
+The C compiler identification is AppleClang, found in "/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/3.6.1/CompilerIdC/CompilerIdC"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_1ef33" "-configuration" "Debug"
+2016-11-22 17:58:24.325 xcodebuild[13721:1623434] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_1ef33 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1ef33.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1ef33.build/Objects-normal/x86_64/cmTC_1ef33.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_1ef33.build/Objects-normal/x86_64/testCCompiler.o testCCompiler.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1ef33.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1ef33.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1ef33.build/Objects-normal/x86_64/testCCompiler.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1ef33.build/Objects-normal/x86_64/testCCompiler.dia -c /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/testCCompiler.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1ef33.build/Objects-normal/x86_64/testCCompiler.o
+
+Ld Debug/cmTC_1ef33 normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1ef33.build/Objects-normal/x86_64/cmTC_1ef33.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1ef33.build/Objects-normal/x86_64/cmTC_1ef33_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1ef33.build/Objects-normal/x86_64/cmTC_1ef33_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_1ef33
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_172f2" "-configuration" "Debug"
+2016-11-22 17:58:25.175 xcodebuild[13738:1623484] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_172f2 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/CMakeCCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.6/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.6/Modules/CMakeCCompilerABI.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/CMakeCCompilerABI.o
+
+Ld Debug/cmTC_172f2 normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_172f2
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_172f2 -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2.LinkFileList -object_path_lto /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug
+@(#)PROGRAM:ld  PROJECT:ld64-274.1
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib
+Framework search paths:
+	/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/
+
+** BUILD SUCCEEDED **
+
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_172f2" "-configuration" "Debug"]
+  ignore line: [2016-11-22 17:58:25.175 xcodebuild[13738:1623484] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs]
+  ignore line: [=== BUILD TARGET cmTC_172f2 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64]
+  ignore line: [write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2.LinkFileList]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/CMakeCCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.6/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp]
+  ignore line: [    export LANG=en_US.US-ASCII]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.6/Modules/CMakeCCompilerABI.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/CMakeCCompilerABI.o]
+  ignore line: []
+  ignore line: [Ld Debug/cmTC_172f2 normal x86_64]
+  ignore line: [    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp]
+  ignore line: [    export MACOSX_DEPLOYMENT_TARGET=10.11]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_172f2]
+  ignore line: [Apple LLVM version 8.0.0 (clang-800.0.42.1)]
+  ignore line: [Target: x86_64-apple-darwin15.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_172f2 -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2.LinkFileList -object_path_lto /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_172f2 -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2.LinkFileList -object_path_lto /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_172f2 -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2.LinkFileList -object_path_lto /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a ]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.11.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_172f2] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2.LinkFileList] ==> ignore
+    arg [-object_path_lto] ==> ignore
+    arg [/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2_lto.o] ==> ignore
+    arg [-no_deduplicate] ==> ignore
+    arg [-v] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_172f2.build/Objects-normal/x86_64/cmTC_172f2_dependency_info.dat] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  Framework search paths: [;/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug] ==> [/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  collapse framework dir [/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug] ==> [/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
+  implicit libs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_ea70f" "-configuration" "Debug"
+2016-11-22 17:58:25.993 xcodebuild[13755:1623538] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_ea70f OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ea70f.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ea70f.build/Objects-normal/x86_64/cmTC_ea70f.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_ea70f.build/Objects-normal/x86_64/feature_tests.o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ea70f.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ea70f.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -std=c11 -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ea70f.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ea70f.build/Objects-normal/x86_64/feature_tests.dia -c /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/feature_tests.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ea70f.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_ea70f normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ea70f.build/Objects-normal/x86_64/cmTC_ea70f.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ea70f.build/Objects-normal/x86_64/cmTC_ea70f_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ea70f.build/Objects-normal/x86_64/cmTC_ea70f_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_ea70f
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_86dba" "-configuration" "Debug"
+2016-11-22 17:58:26.812 xcodebuild[13773:1623591] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_86dba OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_86dba.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_86dba.build/Objects-normal/x86_64/cmTC_86dba.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_86dba.build/Objects-normal/x86_64/feature_tests.o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_86dba.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_86dba.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -std=c99 -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_86dba.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_86dba.build/Objects-normal/x86_64/feature_tests.dia -c /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/feature_tests.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_86dba.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_86dba normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_86dba.build/Objects-normal/x86_64/cmTC_86dba.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_86dba.build/Objects-normal/x86_64/cmTC_86dba_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_86dba.build/Objects-normal/x86_64/cmTC_86dba_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_86dba
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_901a4" "-configuration" "Debug"
+2016-11-22 17:58:27.816 xcodebuild[13790:1623639] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_901a4 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_901a4.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_901a4.build/Objects-normal/x86_64/cmTC_901a4.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_901a4.build/Objects-normal/x86_64/feature_tests.o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_901a4.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_901a4.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -std=c90 -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_901a4.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_901a4.build/Objects-normal/x86_64/feature_tests.dia -c /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/feature_tests.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_901a4.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_901a4 normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_901a4.build/Objects-normal/x86_64/cmTC_901a4.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_901a4.build/Objects-normal/x86_64/cmTC_901a4_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_901a4.build/Objects-normal/x86_64/cmTC_901a4_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_901a4
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIMESPEC succeeded with the following output:
+Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_35303" "-configuration" "Debug"
+2016-11-22 17:58:30.297 xcodebuild[13824:1623739] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_35303 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_35303.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_35303.build/Objects-normal/x86_64/cmTC_35303.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_35303.build/Objects-normal/x86_64/src.o src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_35303.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_35303.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -DHAVE_STRUCT_STAT_ST_MTIMESPEC -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_35303.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_35303.build/Objects-normal/x86_64/src.dia -c /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/src.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_35303.build/Objects-normal/x86_64/src.o
+
+Ld Debug/cmTC_35303 normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_35303.build/Objects-normal/x86_64/cmTC_35303.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_35303.build/Objects-normal/x86_64/cmTC_35303_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_35303.build/Objects-normal/x86_64/cmTC_35303_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_35303
+
+** BUILD SUCCEEDED **
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+   (void)sizeof(((struct stat *)0)->st_mtimespec);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_NSEC succeeded with the following output:
+Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_5e9d4" "-configuration" "Debug"
+2016-11-22 17:58:32.125 xcodebuild[13857:1623828] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_5e9d4 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5e9d4.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5e9d4.build/Objects-normal/x86_64/cmTC_5e9d4.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_5e9d4.build/Objects-normal/x86_64/src.o src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5e9d4.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5e9d4.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -DHAVE_STRUCT_STAT_NSEC -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5e9d4.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5e9d4.build/Objects-normal/x86_64/src.dia -c /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/src.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5e9d4.build/Objects-normal/x86_64/src.o
+
+Ld Debug/cmTC_5e9d4 normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5e9d4.build/Objects-normal/x86_64/cmTC_5e9d4.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5e9d4.build/Objects-normal/x86_64/cmTC_5e9d4_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5e9d4.build/Objects-normal/x86_64/cmTC_5e9d4_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_5e9d4
+
+** BUILD SUCCEEDED **
+
+
+Source file was:
+
+#include <sys/stat.h>
+
+int main()
+{
+   (void)sizeof(((struct stat *)0)->st_mtimespec.tv_nsec);
+   return 0;
+}
+
+Determining if the function SSLCreateContext exists in the /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Security.framework passed with the following output:
+Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_1231e" "-configuration" "Debug"
+2016-11-22 17:58:33.082 xcodebuild[13874:1623879] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_1231e OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1231e.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1231e.build/Objects-normal/x86_64/cmTC_1231e.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_1231e.build/Objects-normal/x86_64/CheckFunctionExists.o /Applications/CMake.app/Contents/share/cmake-3.6/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1231e.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1231e.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -DCHECK_FUNCTION_EXISTS=SSLCreateContext -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1231e.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1231e.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /Applications/CMake.app/Contents/share/cmake-3.6/Modules/CheckFunctionExists.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1231e.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTC_1231e normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Security/SecureTransport.h/Debug -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Security/SecureTransport.h -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1231e.build/Objects-normal/x86_64/cmTC_1231e.LinkFileList -Xlinker -rpath -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Security/SecureTransport.h -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1231e.build/Objects-normal/x86_64/cmTC_1231e_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -framework Security -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1231e.build/Objects-normal/x86_64/cmTC_1231e_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_1231e
+ld: warning: directory not found for option '-L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Security/SecureTransport.h/Debug'
+ld: warning: directory not found for option '-L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Security/SecureTransport.h'
+
+** BUILD SUCCEEDED **
+
+
+
+Performing C SOURCE FILE Test IS_FVISIBILITY=HIDDEN_SUPPORTED succeeded with the following output:
+Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_54de3" "-configuration" "Debug"
+2016-11-22 17:58:34.925 xcodebuild[13891:1624007] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_54de3 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_54de3.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_54de3.build/Objects-normal/x86_64/cmTC_54de3.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_54de3.build/Objects-normal/x86_64/src.o src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_54de3.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_54de3.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -D_GNU_SOURCE -Wall -Wextra -DIS_FVISIBILITY=HIDDEN_SUPPORTED -fvisibility=hidden -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_54de3.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_54de3.build/Objects-normal/x86_64/src.dia -c /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/src.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_54de3.build/Objects-normal/x86_64/src.o
+
+Ld Debug/cmTC_54de3 normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_54de3.build/Objects-normal/x86_64/cmTC_54de3.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_54de3.build/Objects-normal/x86_64/cmTC_54de3_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_54de3.build/Objects-normal/x86_64/cmTC_54de3_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_54de3
+
+** BUILD SUCCEEDED **
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WDOCUMENTATION_SUPPORTED succeeded with the following output:
+Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_9fbf0" "-configuration" "Debug"
+2016-11-22 17:58:35.743 xcodebuild[13908:1624052] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_9fbf0 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9fbf0.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9fbf0.build/Objects-normal/x86_64/cmTC_9fbf0.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_9fbf0.build/Objects-normal/x86_64/src.o src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9fbf0.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9fbf0.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -D_GNU_SOURCE -Wall -Wextra -fvisibility=hidden -fPIC -DIS_WDOCUMENTATION_SUPPORTED -Wdocumentation -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9fbf0.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9fbf0.build/Objects-normal/x86_64/src.dia -c /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/src.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9fbf0.build/Objects-normal/x86_64/src.o
+
+Ld Debug/cmTC_9fbf0 normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9fbf0.build/Objects-normal/x86_64/cmTC_9fbf0.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9fbf0.build/Objects-normal/x86_64/cmTC_9fbf0_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9fbf0.build/Objects-normal/x86_64/cmTC_9fbf0_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_9fbf0
+
+** BUILD SUCCEEDED **
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WNO-MISSING-FIELD-INITIALIZERS_SUPPORTED succeeded with the following output:
+Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_40e58" "-configuration" "Debug"
+2016-11-22 17:58:36.550 xcodebuild[13925:1624097] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_40e58 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_40e58.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_40e58.build/Objects-normal/x86_64/cmTC_40e58.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_40e58.build/Objects-normal/x86_64/src.o src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_40e58.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_40e58.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -D_GNU_SOURCE -Wall -Wextra -fvisibility=hidden -fPIC -Wdocumentation -DIS_WNO-MISSING-FIELD-INITIALIZERS_SUPPORTED -Wno-missing-field-initializers -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_40e58.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_40e58.build/Objects-normal/x86_64/src.dia -c /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/src.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_40e58.build/Objects-normal/x86_64/src.o
+In file included from <built-in>:330:
+<command line>:3:15: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define IS_WNO-MISSING-FIELD-INITIALIZERS_SUPPORTED 1
+              ^
+1 warning generated.
+
+Ld Debug/cmTC_40e58 normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_40e58.build/Objects-normal/x86_64/cmTC_40e58.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_40e58.build/Objects-normal/x86_64/cmTC_40e58_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_40e58.build/Objects-normal/x86_64/cmTC_40e58_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_40e58
+
+** BUILD SUCCEEDED **
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WSTRICT-ALIASING=2_SUPPORTED succeeded with the following output:
+Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_c8ed3" "-configuration" "Debug"
+2016-11-22 17:58:37.364 xcodebuild[13943:1624146] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_c8ed3 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c8ed3.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c8ed3.build/Objects-normal/x86_64/cmTC_c8ed3.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_c8ed3.build/Objects-normal/x86_64/src.o src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c8ed3.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c8ed3.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -D_GNU_SOURCE -Wall -Wextra -fvisibility=hidden -fPIC -Wdocumentation -Wno-missing-field-initializers -DIS_WSTRICT-ALIASING=2_SUPPORTED -Wstrict-aliasing=2 -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c8ed3.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c8ed3.build/Objects-normal/x86_64/src.dia -c /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/src.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c8ed3.build/Objects-normal/x86_64/src.o
+In file included from <built-in>:330:
+<command line>:3:19: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define IS_WSTRICT-ALIASING 2_SUPPORTED
+                  ^
+1 warning generated.
+
+Ld Debug/cmTC_c8ed3 normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c8ed3.build/Objects-normal/x86_64/cmTC_c8ed3.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c8ed3.build/Objects-normal/x86_64/cmTC_c8ed3_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c8ed3.build/Objects-normal/x86_64/cmTC_c8ed3_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_c8ed3
+
+** BUILD SUCCEEDED **
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WSTRICT-PROTOTYPES_SUPPORTED succeeded with the following output:
+Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_61090" "-configuration" "Debug"
+2016-11-22 17:58:38.190 xcodebuild[13961:1624193] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_61090 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_61090.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_61090.build/Objects-normal/x86_64/cmTC_61090.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_61090.build/Objects-normal/x86_64/src.o src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_61090.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_61090.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -D_GNU_SOURCE -Wall -Wextra -fvisibility=hidden -fPIC -Wdocumentation -Wno-missing-field-initializers -Wstrict-aliasing=2 -DIS_WSTRICT-PROTOTYPES_SUPPORTED -Wstrict-prototypes -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_61090.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_61090.build/Objects-normal/x86_64/src.dia -c /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/src.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_61090.build/Objects-normal/x86_64/src.o
+In file included from <built-in>:330:
+<command line>:3:19: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define IS_WSTRICT-PROTOTYPES_SUPPORTED 1
+                  ^
+1 warning generated.
+
+Ld Debug/cmTC_61090 normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_61090.build/Objects-normal/x86_64/cmTC_61090.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_61090.build/Objects-normal/x86_64/cmTC_61090_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_61090.build/Objects-normal/x86_64/cmTC_61090_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_61090
+
+** BUILD SUCCEEDED **
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WDECLARATION-AFTER-STATEMENT_SUPPORTED succeeded with the following output:
+Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_af7a7" "-configuration" "Debug"
+2016-11-22 17:58:39.002 xcodebuild[13979:1624242] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_af7a7 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_af7a7.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_af7a7.build/Objects-normal/x86_64/cmTC_af7a7.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_af7a7.build/Objects-normal/x86_64/src.o src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_af7a7.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_af7a7.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -D_GNU_SOURCE -Wall -Wextra -fvisibility=hidden -fPIC -Wdocumentation -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -DIS_WDECLARATION-AFTER-STATEMENT_SUPPORTED -Wdeclaration-after-statement -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_af7a7.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_af7a7.build/Objects-normal/x86_64/src.dia -c /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/src.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_af7a7.build/Objects-normal/x86_64/src.o
+In file included from <built-in>:330:
+<command line>:3:24: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define IS_WDECLARATION-AFTER-STATEMENT_SUPPORTED 1
+                       ^
+1 warning generated.
+
+Ld Debug/cmTC_af7a7 normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_af7a7.build/Objects-normal/x86_64/cmTC_af7a7.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_af7a7.build/Objects-normal/x86_64/cmTC_af7a7_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_af7a7.build/Objects-normal/x86_64/cmTC_af7a7_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_af7a7
+
+** BUILD SUCCEEDED **
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WNO-UNUSED-CONST-VARIABLE_SUPPORTED succeeded with the following output:
+Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_c641c" "-configuration" "Debug"
+2016-11-22 17:58:39.827 xcodebuild[13997:1624292] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_c641c OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c641c.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c641c.build/Objects-normal/x86_64/cmTC_c641c.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_c641c.build/Objects-normal/x86_64/src.o src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c641c.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c641c.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -D_GNU_SOURCE -Wall -Wextra -fvisibility=hidden -fPIC -Wdocumentation -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -DIS_WNO-UNUSED-CONST-VARIABLE_SUPPORTED -Wno-unused-const-variable -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c641c.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c641c.build/Objects-normal/x86_64/src.dia -c /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/src.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c641c.build/Objects-normal/x86_64/src.o
+In file included from <built-in>:330:
+<command line>:3:15: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define IS_WNO-UNUSED-CONST-VARIABLE_SUPPORTED 1
+              ^
+1 warning generated.
+
+Ld Debug/cmTC_c641c normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c641c.build/Objects-normal/x86_64/cmTC_c641c.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c641c.build/Objects-normal/x86_64/cmTC_c641c_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c641c.build/Objects-normal/x86_64/cmTC_c641c_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_c641c
+
+** BUILD SUCCEEDED **
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WNO-UNUSED-FUNCTION_SUPPORTED succeeded with the following output:
+Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_94432" "-configuration" "Debug"
+2016-11-22 17:58:40.663 xcodebuild[14015:1624339] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_94432 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_94432.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_94432.build/Objects-normal/x86_64/cmTC_94432.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_94432.build/Objects-normal/x86_64/src.o src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_94432.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_94432.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -D_GNU_SOURCE -Wall -Wextra -fvisibility=hidden -fPIC -Wdocumentation -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-const-variable -DIS_WNO-UNUSED-FUNCTION_SUPPORTED -Wno-unused-function -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_94432.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_94432.build/Objects-normal/x86_64/src.dia -c /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/src.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_94432.build/Objects-normal/x86_64/src.o
+In file included from <built-in>:330:
+<command line>:3:15: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define IS_WNO-UNUSED-FUNCTION_SUPPORTED 1
+              ^
+1 warning generated.
+
+Ld Debug/cmTC_94432 normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_94432.build/Objects-normal/x86_64/cmTC_94432.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_94432.build/Objects-normal/x86_64/cmTC_94432_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_94432.build/Objects-normal/x86_64/cmTC_94432_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_94432
+
+** BUILD SUCCEEDED **
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WNO-DEPRECATED-DECLARATIONS_SUPPORTED succeeded with the following output:
+Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_47291" "-configuration" "Debug"
+2016-11-22 17:58:41.487 xcodebuild[14033:1624385] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_47291 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_47291.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_47291.build/Objects-normal/x86_64/cmTC_47291.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_47291.build/Objects-normal/x86_64/src.o src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_47291.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_47291.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -D_GNU_SOURCE -Wall -Wextra -fvisibility=hidden -fPIC -Wdocumentation -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-const-variable -Wno-unused-function -DIS_WNO-DEPRECATED-DECLARATIONS_SUPPORTED -Wno-deprecated-declarations -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_47291.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_47291.build/Objects-normal/x86_64/src.dia -c /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/src.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_47291.build/Objects-normal/x86_64/src.o
+In file included from <built-in>:330:
+<command line>:3:15: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define IS_WNO-DEPRECATED-DECLARATIONS_SUPPORTED 1
+              ^
+1 warning generated.
+
+Ld Debug/cmTC_47291 normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_47291.build/Objects-normal/x86_64/cmTC_47291.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_47291.build/Objects-normal/x86_64/cmTC_47291_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_47291.build/Objects-normal/x86_64/cmTC_47291_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_47291
+
+** BUILD SUCCEEDED **
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the regcomp_l exist passed with the following output:
+Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_95ff7" "-configuration" "Debug"
+2016-11-22 17:58:42.311 xcodebuild[14051:1624436] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_95ff7 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_95ff7.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_95ff7.build/Objects-normal/x86_64/cmTC_95ff7.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_95ff7.build/Objects-normal/x86_64/CheckSymbolExists.o CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_95ff7.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_95ff7.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -D_GNU_SOURCE -Wall -Wextra -fvisibility=hidden -fPIC -Wdocumentation -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-const-variable -Wno-unused-function -Wno-deprecated-declarations -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_95ff7.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_95ff7.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CheckSymbolExists.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_95ff7.build/Objects-normal/x86_64/CheckSymbolExists.o
+
+Ld Debug/cmTC_95ff7 normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_95ff7.build/Objects-normal/x86_64/cmTC_95ff7.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_95ff7.build/Objects-normal/x86_64/cmTC_95ff7_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_95ff7.build/Objects-normal/x86_64/cmTC_95ff7_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_95ff7
+
+** BUILD SUCCEEDED **
+
+
+File /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <regex.h>
+#include <xlocale.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef regcomp_l
+  return ((int*)(&regcomp_l))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function qsort_r exists passed with the following output:
+Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_905cb" "-configuration" "Debug"
+2016-11-22 17:58:43.949 xcodebuild[14085:1624528] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_905cb OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_905cb.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_905cb.build/Objects-normal/x86_64/cmTC_905cb.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_905cb.build/Objects-normal/x86_64/CheckFunctionExists.o /Applications/CMake.app/Contents/share/cmake-3.6/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_905cb.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_905cb.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -D_GNU_SOURCE -Wall -Wextra -fvisibility=hidden -fPIC -Wdocumentation -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-const-variable -Wno-unused-function -Wno-deprecated-declarations -DCHECK_FUNCTION_EXISTS=qsort_r -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_905cb.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_905cb.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /Applications/CMake.app/Contents/share/cmake-3.6/Modules/CheckFunctionExists.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_905cb.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTC_905cb normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_905cb.build/Objects-normal/x86_64/cmTC_905cb.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_905cb.build/Objects-normal/x86_64/cmTC_905cb_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_905cb.build/Objects-normal/x86_64/cmTC_905cb_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_905cb
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_fd897" "-configuration" "Debug"
+2016-11-22 17:58:45.556 xcodebuild[14119:1624623] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_fd897 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd897.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd897.build/Objects-normal/x86_64/cmTC_fd897.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_fd897.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd897.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd897.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -D_GNU_SOURCE -Wall -Wextra -fvisibility=hidden -fPIC -Wdocumentation -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-const-variable -Wno-unused-function -Wno-deprecated-declarations -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd897.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd897.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd897.build/Objects-normal/x86_64/CheckIncludeFile.o
+
+Ld Debug/cmTC_fd897 normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd897.build/Objects-normal/x86_64/cmTC_fd897.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd897.build/Objects-normal/x86_64/cmTC_fd897_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fd897.build/Objects-normal/x86_64/cmTC_fd897_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_fd897
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_a049a" "-configuration" "Debug"
+2016-11-22 17:58:46.427 xcodebuild[14136:1624682] [MT] PluginLoading: Required plug-in compatibility UUID DA4FDFD8-C509-4D8B-8B55-84A7B66AE701 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_a049a OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a049a.build/Objects-normal/x86_64
+write-file /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a049a.build/Objects-normal/x86_64/cmTC_a049a.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_a049a.build/Objects-normal/x86_64/CheckSymbolExists.o CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -Wno-infinite-recursion -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/include -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a049a.build/DerivedSources/x86_64 -I/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a049a.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -D_GNU_SOURCE -Wall -Wextra -fvisibility=hidden -fPIC -Wdocumentation -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-const-variable -Wno-unused-function -Wno-deprecated-declarations -MMD -MT dependencies -MF /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a049a.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a049a.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CheckSymbolExists.c -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a049a.build/Objects-normal/x86_64/CheckSymbolExists.o
+
+Ld Debug/cmTC_a049a normal x86_64
+    cd /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -L/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -F/Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug -filelist /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a049a.build/Objects-normal/x86_64/cmTC_a049a.LinkFileList -mmacosx-version-min=10.11 -Xlinker -object_path_lto -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a049a.build/Objects-normal/x86_64/cmTC_a049a_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a049a.build/Objects-normal/x86_64/cmTC_a049a_dependency_info.dat -o /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/Debug/cmTC_a049a
+
+** BUILD SUCCEEDED **
+
+
+File /Users/dragon/Documents/libgit2/build_ios/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
